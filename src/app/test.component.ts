@@ -11,7 +11,7 @@ export class TestComponent {
   hiss() {
     let audio = new Audio();
     alert('Bully the cat');
-    audio.src = "images/hiss.mp3";
+    audio.src = 'images/hiss.mp3';
     audio.load();
     audio.play();
   }
