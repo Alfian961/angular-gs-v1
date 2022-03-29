@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { CatComponent } from './cat.component';
 import { TestComponent } from './test.component';
 
 @NgModule({
