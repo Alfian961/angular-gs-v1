@@ -7,4 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class TestComponent {
   name = 'Ryan';
+
+  hiss() {
+    let audio = new Audio();
+    alert('Bully the cat');
+    audio.src = "images/hiss.mp3";
+    audio.load();
+    audio.play();
+  }
 }
