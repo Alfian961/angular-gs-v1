@@ -10,8 +10,16 @@ export class TestComponent {
 
   hiss() {
     let audio = new Audio();
-    alert('Bully the cat');
+    alert('Oh no! The cat is mad!');
     audio.src = 'images/hiss.mp3';
+    audio.load();
+    audio.play();
+  }
+
+  pat() {
+    let audio = new Audio();
+    alert('Awww, its so cute!');
+    audio.src = 'images/cat.mp3';
     audio.load();
     audio.play();
   }
